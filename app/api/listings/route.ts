@@ -13,6 +13,7 @@ export async function POST(
   }
 
   const body = await request.json();
+  console.log(body);
   const { 
     title,
     description,
@@ -22,6 +23,7 @@ export async function POST(
     bathroomCount,
     guestCount,
     location,
+    college,
     price,
    } = body;
 
@@ -41,6 +43,7 @@ export async function POST(
       bathroomCount,
       guestCount,
       locationValue: location.value,
+      collegeValue: college.value,
       price: parseInt(price, 10),
       userId: currentUser.id
     }

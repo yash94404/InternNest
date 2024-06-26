@@ -22,16 +22,14 @@ import ImageUpload from '../inputs/ImageUpload';
 import Input from '../inputs/Input';
 import Heading from '../Heading';
 import fetch from 'node-fetch';
-import CollegeSelect from '../inputs/CollegeSelect';
 
 enum STEPS {
   CATEGORY = 0,
   LOCATION = 1,
-  COLLEGE = 2,
-  INFO = 3,
-  IMAGES = 4,
-  DESCRIPTION = 5,
-  PRICE = 6,
+  INFO = 2,
+  IMAGES = 3,
+  DESCRIPTION = 4,
+  PRICE = 5,
 }
 const RentModal = () => {
   const router = useRouter();
@@ -66,7 +64,6 @@ const RentModal = () => {
 
   const location = watch('location');
   const category = watch('category');
-  const college = watch('college');
   const guestCount = watch('guestCount');
   const roomCount = watch('roomCount');
   const bathroomCount = watch('bathroomCount');
@@ -175,19 +172,6 @@ const RentModal = () => {
   }
   /* <Map center={location?.latlng} right before div/> */
 
-  if (step === STEPS.COLLEGE){
-    bodyContent = (
-      <div className="flex flex-col gap-8">
-        <Heading
-          title="What school do you attend?"
-        />
-        <CollegeSelect 
-          value={location} 
-          onChange={(value) => setCustomValue('location', value)} 
-        />
-      </div>
-    );
-  }
   if (step === STEPS.INFO) {
     bodyContent = (
       <div className="flex flex-col gap-8">
