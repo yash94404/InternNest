@@ -1,4 +1,4 @@
-**InternNest repo**
+**InternNest**: A platform for university students to sublet their apartments to summer interns in need of housing
 
 **HOMEPAGE**
 
