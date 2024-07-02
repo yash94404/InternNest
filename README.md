@@ -11,6 +11,7 @@
 ![reservation_UI](https://github.com/yash94404/InternNest/assets/67721491/3c7bf96a-76b9-4e5c-89de-a610b189ed80)
 
 **ACCESSING YOUR BOOKINGS**
+
 ![bookings_UI](https://github.com/yash94404/InternNest/assets/67721491/9a14c952-0e97-4ff3-b731-1a3f3d479649)
 
 **FAVORITE LISTINGS**
