@@ -19,3 +19,7 @@
 
 **BOOKING PROCESS**
 https://github.com/yash94404/InternNest/assets/67721491/3187bae0-93a6-4f3a-8e15-fa1124341008
+
+**NESTING YOUR APARTMENT**
+https://github.com/yash94404/InternNest/assets/67721491/8ba8e845-71ae-4d79-b65d-d3e850b0a8bd
+
