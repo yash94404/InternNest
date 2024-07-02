@@ -11,6 +11,7 @@ import HeartButton from "../HeartButton";
 interface ListingHeadProps {
   title: string;
   locationValue: string;
+  collegeValue: string;
   imageSrc: string;
   id: string;
   currentUser?: SafeUser | null
@@ -19,6 +20,7 @@ interface ListingHeadProps {
 const ListingHead: React.FC<ListingHeadProps> = ({
   title,
   locationValue,
+  collegeValue,
   imageSrc,
   id,
   currentUser
